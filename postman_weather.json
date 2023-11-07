@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "07db61d3-7094-42b0-8ac4-65da5d164ffa",
+		"name": "Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30899521"
+	},
+	"item": [
+		{
+			"name": "openWeather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Base_URL}}?appid=25d3e5957442a8a8314b09dc46d81c18&q={{City}}",
+					"host": [
+						"{{Base_URL}}"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "25d3e5957442a8a8314b09dc46d81c18"
+						},
+						{
+							"key": "q",
+							"value": "{{City}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
